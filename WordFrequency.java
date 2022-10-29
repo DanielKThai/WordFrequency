@@ -10,6 +10,7 @@ public class WordFrequency {
 	 * @return the string representing user input
 	 */
 	private static String promptInput() {
+		System.out.println("Please input a line of text:");
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
 		sc.close();

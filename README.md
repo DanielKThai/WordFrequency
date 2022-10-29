@@ -1,5 +1,6 @@
 # WordFrequency
-Prompts user for text input, and outputs the frequencies of words in descending order
+Prompts user for text input, and outputs the frequencies of words in descending order.
+Any white-space separated string is considered a word.
 
 To run this solution (assuming the environment has JDK installed and path variable set):
  - Clone the repository
