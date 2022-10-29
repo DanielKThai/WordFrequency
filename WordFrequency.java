@@ -26,7 +26,7 @@ public class WordFrequency {
 	private static Map<String, Integer> countFrequencies(String input) {
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		
-		for (String s : input.split(" ")) {
+		for (String s : input.split("\\s+")) {
 			map.put(s, map.getOrDefault(s, 0) + 1);
 		}
 		
